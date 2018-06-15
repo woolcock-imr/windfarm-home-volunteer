@@ -129,11 +129,6 @@
         }
         show_user();
         //---------------------------------------------
-        if(window.location.hostname!='127.0.0.1'){
-            $vm.google_signin_setup('175539446682-tvqlkse9j0mt79fk70uetoq30bpnrboa.apps.googleusercontent.com','google__ID',show_user);
-            $vm.facebook_signin_setup('360182794393427','facebook__ID',show_user);
-        }
-        //---------------------------------------------
     }
     //-----------------------------------------
 </script>
@@ -142,13 +137,10 @@
         height:100%;
     }
     .vm_module{
-        /*position:absolute;*/
         width:100%;
         height:100%;
     }
 	html,body{
-		/*height:100%;*/
-		/*overflow-y:hidden;*/
         width: 100%;
         height: 100%;
         padding:0;
@@ -383,7 +375,6 @@
     #database_p__ID{
         display:none;
     }
-
     /*-----------------------------------------------*/
 	@keyframes vm_module_fadein {
 		from { opacity:0; }

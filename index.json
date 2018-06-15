@@ -1,4 +1,8 @@
 {"modules":{
-    "portal":    {"url":"modules/portal.html"},
-	"volunter":  {"url":"modules/volunteer.html"}
+    "portal":                   {"url":"modules/portal.html"},
+	"project-volunteer":        {"table_id":"20008533","url":"modules/project-volunteer.html"},
+
+    "all-volunteer":            {"table_id":"20008533","url":"modules/all-volunteer.html"},
+    "volunteer-joined-project": {"table_id":"20009681","url":"modules/volunteer-joined-project.html"},
+    "system-query":             {"table_id":"91000095","url":"modules/query.html"}
 }}
